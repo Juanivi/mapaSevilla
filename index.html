@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="contenedor">
+        <div>
+            <h1>MAPA DE LA PROVINCIA DE SEVILLA</h1>
+        </div>
+
+        <div class="contenido">
+
+            <div class="mapa">
+                <img src="mapaSevilla.gif" usemap="#image-map">
+
+                <map name="image-map">
+                    <area target="" alt=" pedroso" title=" pedroso" href="#" coords="180,99,208,133" shape="rect" shape="rect" onclick="pedroso()">
+                    <area target="" alt="constantina" title="constantina" href="#" coords="216,96,242,131" shape="rect" onclick="constantina()">
+                    <area target="" alt="guillena" title="guillena" href="#" coords="97,175,124,208" shape="rect" onclick="guillena()">
+                    <area target="" alt="loraRio" title="loraRio" href="#" coords="235,161,262,192" shape="rect" onclick="loraRio()">
+                    <area target="" alt="alcalaRio" title="AlcalaRio" href="#" coords="127,197,153,228" shape="rect" onclick="alcalaRio()">
+                    <area target="" alt="ecija" title="ecija" href="#" coords="335,202,364,228" shape="rect" onclick="ecija()">
+                    <area target="" alt="carmona" title="carmona" href="#" coords="223,217,248,243" shape="rect" onclick="carmona()">
+                    <area target="" alt="viso" title="viso" href="#" coords="196,231,218,260" shape="rect" onclick="viso()">
+                    <area target="" alt="mairenaAlcor" title="mairenaAlcor" href="#" coords="185,263,211,284" shape="rect" onclick="mairenaAlcor()">
+                    <area target="" alt="marchena" title="marchena" href="#" coords="232,283,263,308" shape="rect" onclick="marchena()">
+                    <area target="" alt="osuna" title="osuna" href="#" coords="278,307,304,338" shape="rect" onclick="osuna()">
+                    <area target="" alt="estepa" title="estepa" href="#" coords="385,282,419,309" shape="rect" onclick="estepa()">
+                    <area target="" alt="moron" title="moron" href="#" coords="241,324,266,347" shape="rect" onclick="moron()">
+                    <area target="" alt="utrera" title="utrera" href="#" coords="173,322,205,346" shape="rect" onclick="utrera()">
+                    <area target="" alt="dosHermanas" title="dosHermanas" href="#" coords="141,286,167,309" shape="rect" onclick="dosHermanas()">
+                    <area target="" alt="camas" title="camas" href="#" coords="95,238,122,262" shape="rect" onclick="camas()">
+                    <area target="" alt="pilas" title="pilas" href="#" coords="33,272,60,297" shape="rect" onclick="pilas()">
+                    <area target="" alt="aznalcazar" title="aznalcazar" href="#" coords="64,299,94,327" shape="rect" onclick="aznalcazar()">
+                    <area target="" alt="islaMayor" title="islaMayor" href="#" coords="81,350,107,374" shape="rect" onclick="islaMayor()">
+                    <area target="" alt="lebrija" title="lebrija" href="#" coords="97,388,129,417" shape="rect" onclick="lebrija()">
+                    <area target="" alt="sevilla" title="sevilla" href="#" coords="123,263,149,281" shape="0" onclick="sevilla()">
+                </map>
+            </div>
+
+            <div>
+                <table class="tabla">
+                    <tr><td id="encabezado">Datos del tiempo. Haz clic en una localidad del mapa</td></tr>
+                    <tr><td id="0"></td></tr>
+                    <tr><td id="1"></td></tr>
+                    <tr><td id="2"></td></tr>
+                </table>
+            </div>
+        </div>
+        
+        <footer class="pie"> Creado por <span>Juan Pichardo Pereira</span> Curso Desarrollo Aplicaciones Web -
+            JavaScript: <span>AJAX</span></footer>
+
+    </div>
+</body>
+
+</html>

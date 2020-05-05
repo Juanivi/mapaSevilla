@@ -1,0 +1,87 @@
+
+/* FUENTES DE GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Diplomata+SC&family=Ewert&family=Frijole&family=Indie+Flower&family=McLaren&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:ital,wght@0,100;0,400;1,300&family=Vast+Shadow&display=swap');
+
+body{
+    background-color: wheat;
+}
+
+/* h1 que tiene el titulo */
+ h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Frijole';
+    font-size: 3.5em;
+}
+
+/* contenedor principal */
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* contenedor que contiene el mapa y la tabla */
+.contenido{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1500px;
+    margin: 0 auto;
+    grid-gap: 26px;
+    justify-content: center;
+}
+
+ /* encabezado de la tabla */
+#encabezado{
+    font-size: 40px;
+    font-family: 'Vast Shadow';
+}
+
+/* tabla */
+.tabla{
+    width: 1200px;
+    height: 450px;
+    margin-right: 100px;
+    font-size: 1.5em;
+    color: blue;
+    border-spacing: 10px;
+}
+
+
+td {
+    text-align:center;
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px grey;
+    border: rgb(85, 84, 84) 1px solid;
+    background-color: #DCDCDC;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+.verde {
+    color: #008000;
+}
+
+.rojo {
+    color: red;
+}
+ /* footer */
+.pie{
+    font-size: 2em;
+    margin-top: auto;
+    font-family: 'Pacifico';
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Etiqueta span que está en el footer */
+.pie span {
+    padding: 0 10px;
+    font-size: 1.8em;
+    color: darkgreen;
+    font-family: 'Indie Flower';
+}
+
