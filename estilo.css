@@ -3,7 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Diplomata+SC&family=Ewert&family=Frijole&family=Indie+Flower&family=McLaren&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:ital,wght@0,100;0,400;1,300&family=Vast+Shadow&display=swap');
 
 body{
-    background-color: wheat;
+    /*background-color: #8C8F8D;*/
+    background-image: url("imagen1.jfif"); /*ubicacion de la imagen*/
+    background-position: center center; /*centra la imagen*/
+    background-repeat: no-repeat; /*para que la imagen no se repita*/
+    background-attachment: fixed; /*se fija la imagen para que la altura de la imagen no supere a la del contenido*/
+    background-size: cover; /*La imagen de fondo se reescala automaticamente con el cambio del ancho de ventana del navegador*/
+    margin-top: 100px;
 }
 
 /* h1 que tiene el titulo */
@@ -12,6 +18,7 @@ body{
     text-align: center;
     font-family: 'Frijole';
     font-size: 3.5em;
+    color: white;
 }
 
 /* contenedor principal */
