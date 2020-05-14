@@ -4,7 +4,7 @@
 
 body{
     /*background-color: #8C8F8D;*/
-    background-image: url("imagen1.jfif"); /*ubicacion de la imagen*/
+    background-image: url("imagen2.jfif"); /*ubicacion de la imagen*/
     background-position: center center; /*centra la imagen*/
     background-repeat: no-repeat; /*para que la imagen no se repita*/
     background-attachment: fixed; /*se fija la imagen para que la altura de la imagen no supere a la del contenido*/
@@ -58,11 +58,12 @@ body{
 td {
     text-align:center;
     border-radius: 8px;
-    box-shadow: 6px 6px 6px grey;
+    box-shadow: 8px 8px 8px black;
     border: rgb(85, 84, 84) 1px solid;
     background-color: #DCDCDC;
     height: 50px;
     font-size: 1.5em;
+    font-family: 'mclaren';
 }
 
 .verde {
@@ -75,20 +76,22 @@ td {
  /* footer */
 .pie{
     font-size: 2em;
-    margin-top: auto;
+    margin-top: 100px;
     font-family: 'Pacifico';
     text-align: center;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 /* Etiqueta span que está en el footer */
 .pie span {
     padding: 0 10px;
     font-size: 1.8em;
-    color: darkgreen;
+    /*color: darkgreen;*/
     font-family: 'Indie Flower';
+    color: white;
 }
 
